@@ -255,7 +255,7 @@ header {
 /* JUDUL DI ATAS GAMBAR */
 .waste-title {
   position: relative;
-  margin-top: 500px;
+  margin-top: 400px;
   width: 100%;
   text-align: center;
   color: #ffffff;
@@ -660,6 +660,7 @@ section {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 
 
