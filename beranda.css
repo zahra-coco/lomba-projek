@@ -16,7 +16,7 @@ body {
 
 /* ===== STICKY HEADER ===== */
 header {
-  position: sticky;
+  position: relative;
   top: 0;
   z-index: 2000;
 }
@@ -28,7 +28,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
+  position: sticky;
   z-index: 2001;
   width: 100%;
 }
@@ -661,6 +661,7 @@ section {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 
 
