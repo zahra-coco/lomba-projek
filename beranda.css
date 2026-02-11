@@ -10,8 +10,7 @@ html {
 }
 
 body {
-  overflow-x: hidden;   
-  overflow-y: auto;     
+  overflow-x: hidden;        
 }
 
 
@@ -667,6 +666,7 @@ section {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 
 
