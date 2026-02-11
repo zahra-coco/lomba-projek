@@ -29,7 +29,7 @@ header {
   align-items: center;
   justify-content: space-between;
   position: sticky;
-  z-index: 2001;
+  z-index: 3000;
   width: 100%;
 }
 
@@ -661,6 +661,7 @@ section {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 
 
