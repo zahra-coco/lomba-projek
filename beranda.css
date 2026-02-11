@@ -409,7 +409,7 @@ header {
 
 .why-care {
   background-color: #e9dec6;
-  padding: 100px 100px; /* kiri-kanan BESAR */
+  padding: 100px 20px; 
 }
 
 .why-care h2 {
@@ -661,6 +661,7 @@ section {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 
 
