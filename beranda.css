@@ -9,9 +9,9 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+/* body {
   overflow-x: hidden;
-}
+} */
 
 body {
   background: #f5f5f5;
@@ -22,6 +22,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 2000;
+  width: 100%;
 }
 
 /* ===== NAVBAR ===== */
@@ -666,6 +667,7 @@ section {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 
 
