@@ -408,7 +408,7 @@ header {
 
 .why-care {
   background-color: #e9dec6;
-  padding: 100px 20px; 
+  padding: 100px 100px; 
 }
 
 .why-care h2 {
@@ -677,6 +677,7 @@ header,
 footer {
   max-width: 100%;
 }
+
 
 
 
