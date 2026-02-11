@@ -9,10 +9,9 @@ html {
   scroll-behavior: smooth;
 }
 
-/* body {
+body {
   overflow: hidden;
-  overflow: auto;
-  overflow: scroll; */
+}
 
 
 body {
@@ -646,7 +645,6 @@ footer {
 html,
 body {
   max-width: 100%;
-  overflow-x: hidden;
 }
 
 img {
@@ -668,6 +666,7 @@ section {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 
 
