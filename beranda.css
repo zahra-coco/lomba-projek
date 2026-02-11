@@ -662,21 +662,3 @@ section {
   transform: translateY(0);
 }
 
-html,
-body {
-  overflow-x: hidden;
-  width: 100%;
-}
-
-header,
-.navbar,
-.tagline,
-.hero,
-.waste-section,
-.why-care,
-.aksi,
-.cta,
-footer {
-  max-width: 100%;
-  overflow-x: hidden;
-}
