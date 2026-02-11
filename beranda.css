@@ -481,6 +481,7 @@ header {
   background: white;
   color: #333;
   width: 320px;
+  max-width: 100%;
   padding: 25px 20px;
   border-radius: 12px;
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
@@ -660,6 +661,7 @@ section {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 
 
