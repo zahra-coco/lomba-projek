@@ -560,11 +560,13 @@ header {
 
 /* FOOTER */
 footer {
-  background: #4a5d0b;
-  color: white;
+  margin-top: 100px;
+  background: #4b5f05;
+  color: #fff;
   text-align: center;
-  padding: 14px;
-  font-size: 13px;
+  padding: 18px 10px;
+  font-size: clamp(12px, 3vw, 14px); /* ukuran fleksibel tanpa titik-titik */
+  white-space: nowrap; /* tetap lurus */
 }
 
 /* ===================== */
@@ -664,3 +666,4 @@ section {
   opacity: 1;
   transform: translateY(0);
 }
+
