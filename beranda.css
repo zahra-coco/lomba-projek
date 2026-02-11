@@ -19,6 +19,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 2000;
+  width: 100%;
 }
 
 /* ===== NAVBAR ===== */
@@ -30,6 +31,7 @@ header {
   justify-content: space-between;
   position: relative;
   z-index: 2001;
+  width: 100%;
 }
 
 .logo img {
@@ -661,4 +663,5 @@ section {
   opacity: 1;
   transform: translateY(0);
 }
+
 
