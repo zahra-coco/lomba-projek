@@ -11,7 +11,7 @@ html {
 
 body {
   background: #f5f5f5;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 /* ===== STICKY HEADER ===== */
@@ -677,6 +677,7 @@ header,
 footer {
   max-width: 100%;
 }
+
 
 
 
