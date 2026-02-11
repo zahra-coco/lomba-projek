@@ -43,40 +43,30 @@ document.addEventListener("DOMContentLoaded", function () {
   const reveals = document.querySelectorAll(".reveal");
 
   const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
+    function (entries) {
+      entries.forEach(function (entry) {
         if (entry.isIntersecting) {
           entry.target.classList.add("active");
+        } else {
+          entry.target.classList.remove("active");
         }
       });
     },
-    { threshold: 0.2 },
+    { threshold: 0.15 },
   );
 
   reveals.forEach((el) => observer.observe(el));
 });
 
-const observer = new IntersectionObserver(
-  function (entries) {
-    entries.forEach(function (entry) {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("active");
-      } else {
-        entry.target.classList.remove("active");
-      }
+const btnAksi = document.getElementById("btnMulaiAksi");
+
+if (btnAksi) {
+  btnAksi.addEventListener("click", function () {
+    document.getElementById("aksi-kecil").scrollIntoView({
+      behavior: "smooth",
     });
-  },
-  { threshold: 0.15 },
-);
-
-// tombol scroll
-document.getElementById("btnMulaiAksi").addEventListener("click", function () {
-  document.getElementById("aksi-kecil").scrollIntoView({
-    behavior: "smooth",
   });
-});
-
-reveals.forEach((el) => observer.observe(el));
+}
 
 function toggleDone(btn) {
   // kalau sudah done, STOP (biar tidak balik)
