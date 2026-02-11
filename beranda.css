@@ -9,10 +9,10 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+/* body {
   overflow: hidden;
   overflow: auto;
-  overflow: scroll;
+  overflow: scroll; */
 
 
 body {
@@ -645,7 +645,6 @@ footer {
 /* ===== FIX BLANK MOBILE ===== */
 html,
 body {
-  overflow-x: hidden;
   max-width: 100%;
 }
 
@@ -656,7 +655,6 @@ img {
 
 section {
   width: 100%;
-  overflow: hidden;
 }
 
 .reveal {
@@ -669,6 +667,7 @@ section {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 
 
