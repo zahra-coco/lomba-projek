@@ -19,7 +19,6 @@ header {
   position: sticky;
   top: 0;
   z-index: 2000;
-  width: 100%;
 }
 
 /* ===== NAVBAR ===== */
@@ -663,5 +662,6 @@ section {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 
