@@ -660,8 +660,10 @@ section {
   transform: translateY(0);
 }
 
+/* mengatur lebar */
 html,
 body {
+  overflow-x: hidden;
   width: 100%;
 }
 
@@ -675,7 +677,9 @@ header,
 .cta,
 footer {
   max-width: 100%;
+  overflow-x: hidden;
 }
+
 
 
 
