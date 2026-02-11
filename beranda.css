@@ -663,7 +663,6 @@ section {
 
 html,
 body {
-  overflow-x: hidden;
   width: 100%;
 }
 
@@ -679,6 +678,7 @@ footer {
   max-width: 100%;
   overflow-x: hidden;
 }
+
 
 
 
