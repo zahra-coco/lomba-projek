@@ -9,9 +9,11 @@ html {
   scroll-behavior: smooth;
 }
 
-/* body {
-  overflow-x: hidden;
-} */
+body {
+  overflow: hidden;
+  overflow: auto;
+  overflow: scroll;
+
 
 body {
   background: #f5f5f5;
@@ -667,6 +669,7 @@ section {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 
 
