@@ -652,7 +652,6 @@ section {
 
 .reveal {
   opacity: 0;
-  transform: translateY(40px);
   transition: 0.8s ease;
 }
 
@@ -677,6 +676,7 @@ header,
 footer {
   max-width: 100%;
 }
+
 
 
 
