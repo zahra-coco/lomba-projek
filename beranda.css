@@ -16,7 +16,7 @@ body {
 
 /* ===== STICKY HEADER ===== */
 header {
-  position: relative;
+  position: sticky;
   top: 0;
   z-index: 2000;
 }
@@ -28,9 +28,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: sticky;
-  z-index: 3000;
-  width: 100%;
+  position: relative;
+  z-index: 2001;
 }
 
 .logo img {
@@ -661,6 +660,7 @@ section {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 
 
