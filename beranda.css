@@ -646,6 +646,7 @@ footer {
 html,
 body {
   max-width: 100%;
+  overflow-x: hidden;
 }
 
 img {
@@ -654,7 +655,6 @@ img {
 }
 
 section {
-  overflow: hidden;
   width: 100%;
 }
 
@@ -668,6 +668,7 @@ section {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 
 
